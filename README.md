@@ -79,4 +79,21 @@ Steps :
 
 Actual Result: "Тест драйв"
 
-Actual Result: "Тест-драйв"
+Expected result: "Тест-драйв"
+
+# Summary: Error in the drop-down list "Engine" on the page Technical data GLC 250D 4MATIC
+
+Steps :
+1. Go to the page [testdrive](https://testdrive.andersenlab.com/)
+
+2. On the "model selection" page select GLC 250D 4MATIC
+
+3. Сlick "Сontinue"
+
+4. Click on the drop-down list in the "Engine" section
+
+2. Pay attention to the last value in the list: "outofmemoryerror"
+
+Actual Result: Inappropriate value "outofmemoryerror" present in dropdown
+
+Expected result: the drop-down list contains values of engine types
