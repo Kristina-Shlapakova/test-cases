@@ -67,6 +67,16 @@ Steps :
 
 Actual Result: The "Data confirmation" page displays the names of the variable fields (First name, last name, middle  name, full years, phone number) that were not filled  
 
-Expected Result: Error Message
+Actual Result: Error Message
 
+ # Summary: A grammatical error in the word "Тест драйв"
 
+Steps :
+
+1. Go to the page [testdrive](https://testdrive.andersenlab.com/)
+
+2. Pay attention to the word "Тест драйв" in the upper left corner and on page 5 "Confirmation of data" 
+
+Actual Result: "Тест драйв"
+
+Actual Result: "Тест-драйв"
