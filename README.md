@@ -45,8 +45,28 @@ Actual Result: there is no button "Back" to go to the previous page
 
 Expected result: the  button "Back" is present
  
+# Summary: The "Data confirmation" page displays the names of the variable fields that were not filled 
 
+Precondition: 
 
+1. Go to the page [testdrive](https://testdrive.andersenlab.com/)
 
+3. Select  a car (S500 Cabriolet AMG)
+
+4. Сlick "Сontinue"
+
+6.  Select a technical characteristics (Engine:Gasoline 3.0, Transmission:Automatic)
+
+7.  Сlick "Сontinue"
+
+Steps :
+
+1. On the page "Contact information" leave all fields blank 
+
+2. Сlick "Сontinue"
+
+Actual Result: The "Data confirmation" page displays the names of the variable fields (First name, last name, middle  name, full years, phone number) that were not filled  
+
+Expected Result: Error Message
 
 
